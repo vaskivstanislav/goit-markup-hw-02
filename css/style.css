@@ -48,8 +48,6 @@ address {font-style: normal}
         color: #404bbf;
 }
 .section-one {
-    width: 1440px;
-    height: 600px;
     background: #2e2f42;
 }
 .title {
@@ -70,7 +68,10 @@ address {font-style: normal}
     cursor: pointer;
 }
 .title-button:hover {
-background-color: #404BB;
+background-color: #404BBF;
+}
+.title-button:active {
+background-color: #404BBF
 }
 .features-sub-title {
         font-weight: 500;
@@ -95,10 +96,11 @@ background-color: #404BB;
 .team-title {
         font-weight: 700;
         font-size: 36px;
-        line-height: 1.1;
+        line-height: 1.11;
         letter-spacing: 0.02em;
         text-align: center;
         color: #2e2f42;
+        text-transform: capitalize
 }
 .team-sub-title {
     font-family: "Roboto", sans-serif;
