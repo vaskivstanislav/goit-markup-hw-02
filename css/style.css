@@ -16,10 +16,10 @@ a {
         line-height: 1.17;
         letter-spacing: 0.03em;
         text-transform: uppercase;
-        color: #2e2f42;
-}
-.header-logo-italic {
         color: #4d5ae5;
+}
+.header-logo-black {
+        color: #2e2f42;
 }
 .header-menu-link {
         font-weight: 500;
@@ -35,6 +35,9 @@ a {
 .header-menu-link:active {
         color: #404bbf;
 }
+.header-menu-link:focus {
+        color: #404bbf;
+}
 
 address {font-style: normal}
 
@@ -45,6 +48,9 @@ address {font-style: normal}
         color: #434455;
 }
 .contacts-list-link:hover{
+        color: #404bbf;
+}
+.contacts-list-link:focus {
         color: #404bbf;
 }
 .section-one {
@@ -72,6 +78,9 @@ background-color: #404BBF;
 }
 .title-button:active {
 background-color: #404BBF
+}
+.title-button:focus {
+        background-color: #404BBF
 }
 .features-sub-title {
         font-weight: 500;
