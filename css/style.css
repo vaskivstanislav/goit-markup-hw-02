@@ -1,5 +1,7 @@
 body {
     font-family: "Roboto", sans-serif;
+    color: #434455;
+    background-color: #FFFFFF;
 }
 ul {
     list-style-type: none;
@@ -29,9 +31,13 @@ a {
 .header-menu-link:hover {
         color: #404bbf;
 }
+
 .header-menu-link:active {
         color: #404bbf;
 }
+
+address {font-style: normal}
+
 .contacts-list-link {
         font-size: 16px;
         line-height: 1.5;
